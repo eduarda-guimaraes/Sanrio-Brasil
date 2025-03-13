@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+}
+
+nav img{
+    margin-left: 13%;
+}
+
+.navbar{
+    background-color: #07C7FF !important;
+} 
+
+.navbar-nav{
+    margin-left: 20rem;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: white;
+    font-size: 20px;
+}
+
+.dropdown-menu{
+    background-color: #07C7FF;
+}
+
+.dropdown-item{
+    color: white;
+}
+
+.carousel {
+    position: relative;
+}
+
+.carousel-indicators.custom-indicators {
+    position: absolute;
+    bottom: -45px;
+    left: 35%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    z-index: 10;
+}
+
+.carousel-indicators.custom-indicators button {
+    background-color: #07C7FF;
+    border: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    transition: background-color 0.3s;
+}
+
+.carousel-indicators.custom-indicators .active {
+    background-color: red !important;
+}
+
+h2 {
+    color: #07C7FF;
+    text-align: center;
+    margin-top: 5%;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+#sobre p{
+    color: #4E5586;
+    font-weight: 500;
+    margin-inline-start: 13%;
+    margin-inline-end: 13%;
+    margin-top: 3%;
+}
+
+h3{
+    color: red;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.image-container {
+    position: relative;
+    width: auto;
+    height: auto;
+    margin-top: 6%;
+    margin-left: 20%;
+    margin-right: 10%;
+}
+
+.image-container img.puroland {
+    width: 750px;
+    height: 500px;
+    padding: auto;
+}
+
+.image-container img.casal {
+    position: absolute;
+    top: -9%;
+    left: -8%;
+    z-index: 2;
+}
+
+.parquestem{
+    text-align: left;
+}
+
+.parquestem p{
+    color: #808080;
+    font-weight: bolder;
+}
+
+.parquestem h3{
+    text-align: left;
+}
+
+h4{
+    color: #0273D9;
+    font-weight: bolder;
+    font-size: 2rem;
+}
